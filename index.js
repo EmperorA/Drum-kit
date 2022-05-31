@@ -37,6 +37,8 @@ for (i = 0; i < numOfDrum; i++) {
         var kick = new Audio("sounds/kick-bass.mp3");
         kick.play();
         break;
+
+        default: console.log(buttonInnerHtML);
     }
   }
 }
